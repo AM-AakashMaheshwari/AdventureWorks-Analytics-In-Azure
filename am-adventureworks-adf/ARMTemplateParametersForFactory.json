@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "am-adventureworks-adf"
+		},
+		"ls_AdventureWorksTables_from_ADF_accountKey": {
+			"value": ""
+		},
+		"ls_AzureDataLakeStorage_with_ADF_accountKey": {
+			"value": ""
+		},
+		"ls_AdventureWorksTables_from_ADF_properties_typeProperties_url": {
+			"value": "https://adventureworksadlstorage.dfs.core.windows.net/"
+		},
+		"ls_AzureDataLakeStorage_with_ADF_properties_typeProperties_url": {
+			"value": "https://adventureworksadlstorage.dfs.core.windows.net/"
+		},
+		"ls_OnPremSqlServer_with_ADF_properties_typeProperties_server": {
+			"value": "DESKTOP-VAB29GJ"
+		},
+		"ls_OnPremSqlServer_with_ADF_properties_typeProperties_database": {
+			"value": "AdventureWorks2019"
+		},
+		"ls_OnPremSqlServer_with_ADF_properties_typeProperties_userName": {
+			"value": "AM_AakashMaheshwari"
+		},
+		"ls_keyVault_with_sqlserverauthentication_properties_typeProperties_baseUrl": {
+			"value": "https://key-vault-adventurework.vault.azure.net/"
+		}
+	}
+}
