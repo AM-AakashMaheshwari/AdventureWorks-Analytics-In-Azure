@@ -1,0 +1,13 @@
+{
+	"name": "SqlServerAllTables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_OnPremSqlServer_with_ADF",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

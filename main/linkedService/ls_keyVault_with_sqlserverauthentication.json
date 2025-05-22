@@ -1,0 +1,12 @@
+{
+	"name": "ls_keyVault_with_sqlserverauthentication",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "This linked service connects adf with keyvault to get the credentials for the users created on the on-premise sql server. ",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://key-vault-adventurework.vault.azure.net/"
+		}
+	}
+}

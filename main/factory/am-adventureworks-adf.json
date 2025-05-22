@@ -1,0 +1,9 @@
+{
+	"name": "am-adventureworks-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "48aac22a-5e5a-4363-84a2-7b15bb58048a",
+		"tenantId": "ccac7e15-0741-465e-b794-0a014c721667"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "ls_AzureDataLakeStorage_with_ADF",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "This linked service connects the adf with adl so that the tables copied from the on premise sql server gets transferred to ADL",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adventureworksadlstorage.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDEzODUxQ0YxLUQwMzItNDBEQy04QUVFLUQ1Mjk1RjZBMjkwQV9hOGE4MDExYi01YjYwLTQzOGYtYjIzZi05N2I4YjVjOWE0OGUiDQp9"
+		}
+	}
+}
