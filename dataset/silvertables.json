@@ -1,0 +1,18 @@
+{
+	"name": "silvertables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adventure-works-analytics-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Purchasing",
+				"fileSystem": "silver"
+			}
+		}
+	}
+}
