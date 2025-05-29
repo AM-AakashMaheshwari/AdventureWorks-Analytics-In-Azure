@@ -1,0 +1,17 @@
+{
+	"name": "SQL script CreateView",
+	"properties": {
+		"content": {
+			"query": "-- This is auto-generated code\nCREATE VIEW Purchase_order\nAS\nSELECT\n     *\nFROM\n    OPENROWSET(\n        BULK 'https://adventureworksadlstorage.dfs.core.windows.net/silver/Purchasing/PurchaseOrderDetail/',\n        FORMAT = 'DELTA'\n    ) AS [result]\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "silver_db",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
